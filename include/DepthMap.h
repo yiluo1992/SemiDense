@@ -45,7 +45,7 @@ public:
     
     cv::Mat Twc;
 
-    float fx, fy, cx, cy;
+    float fx, fy, cx, cy, bf;
     int width, height;
 };
 

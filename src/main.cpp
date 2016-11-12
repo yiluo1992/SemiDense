@@ -33,8 +33,8 @@ boost::shared_ptr<pcl::visualization::PCLVisualizer> rgbVis(pcl::PointCloud<pcl:
 
 int main(int argc, char** argv) {
 
-    string file_1 = "/home/yiluo/SFM/workspace/SemiDense/bin/l00000046.png";
-    string file_2 = "/home/yiluo/SFM/workspace/SemiDense/bin/r00000046.png";
+    string file_1 = "/home/yiluo/SFM/workspace/SemiDense/bin/l00000001.png";
+    string file_2 = "/home/yiluo/SFM/workspace/SemiDense/bin/r00000001.png";
 
     cv::Mat ImageLeftRGB = cv::imread(file_1);
 
@@ -65,8 +65,8 @@ int main(int argc, char** argv) {
     }
 
     // Save disparity
-    string output_1 = "/home/yiluo/SFM/workspace/SemiDense/bin/l00000046.png";
-    string output_2 = "/home/yiluo/SFM/workspace/SemiDense/bin/r00000046.png";
+    string output_1 = "/home/yiluo/SFM/workspace/SemiDense/bin/l00000001_disparity.png";
+    string output_2 = "/home/yiluo/SFM/workspace/SemiDense/bin/r00000001_disparity.png";
     cv::Mat ImageD1(height, width, CV_8U);
     cv::Mat ImageD2(height, width, CV_8U);
 

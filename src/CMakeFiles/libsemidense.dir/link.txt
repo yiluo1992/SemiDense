@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/liblibsemidense.a  CMakeFiles/libsemidense.dir/DepthHypo.cpp.o CMakeFiles/libsemidense.dir/DepthMap.cpp.o
+/usr/bin/ranlib ../lib/liblibsemidense.a

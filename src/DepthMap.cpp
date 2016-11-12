@@ -52,7 +52,8 @@ void DepthMap::ComputeDepthFromStereoPair() {
             int index = i*width + j;
             if(D1_data[index] > 0) {
                 // Set 
-//                currentDepthMap[index].depth
+                currentDepthMap[index].depth = bf/(D1_data[index]*fx);
+                currentDepthMap[index].var = 1.0; // should proportional to the matching error and gradient val
             }
         }
     }
